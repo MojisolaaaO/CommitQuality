@@ -18,6 +18,18 @@ class ProductsPage {
     getAddProductButton() {
         return cy.get(".add-product-button")
     }
+
+    getProductName() {
+        return cy.get("#name")
+    }
+
+    getPrice() {
+        return cy.get("#price")
+    }
+
+    getDate() {
+        return cy.get("#dateStocked")
+    }
 }
 
 export default ProductsPage;

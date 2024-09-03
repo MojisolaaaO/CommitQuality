@@ -18,4 +18,10 @@ describe("login", () => {
 
     });
 
+    it("add a product", () => {
+        cy.scrollTo("bottom")
+        productsPage.getAddProductButton().click()
+    })
+
+
 })
