@@ -3,7 +3,7 @@ import LoginPage from "../fixtures/loginPage";
 const loginPage = new LoginPage();
 
 describe("login", () => {
-    it("assert elements are visible", () => {
+    it.only("assert elements are visible", () => {
         loginPage.visit();
         loginPage.getUsername().should("be.visible");
         loginPage.getPassword().should("be.visible");
