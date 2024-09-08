@@ -29,7 +29,7 @@ describe("login", () => {
 
     })
 
-    it.only("cancel out of adding a product", () => {
+    it("cancel out of adding a product", () => {
         cy.scrollTo("bottom")
         productsPage.getAddProductButton().click()
         productsPage.getProductNameField().type("Mojis's Product")
