@@ -4,16 +4,16 @@ class AccordionPage {
     }
 
     getFirstAccordion() {
-        return cy.get("[data-testid='accordion-1']")
+        return cy.get('.container > div > :nth-child(2)')
 
     }
 
     getSecondAccordion() {
-        return cy.get("[data-testid='accordion-2']")
+        return cy.get('.container > div > :nth-child(4)')
     }
 
     getThirdAccordion() {
-        return cy.get("[data-testid='accordion-3']")
+        return cy.get('.container > div > :nth-child(6)')
     }
 
 }
