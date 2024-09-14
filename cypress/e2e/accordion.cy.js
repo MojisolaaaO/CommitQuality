@@ -11,6 +11,7 @@ describe("accordions", () => {
         accordionPage.getSecondAccordion().click()
         accordionPage.getThirdAccordion().click()
         cy.wait(2000)
+        cy.scrollTo('bottom')
 
     })
 })
