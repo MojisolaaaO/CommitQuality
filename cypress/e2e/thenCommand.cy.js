@@ -1,4 +1,4 @@
-describe("contact form", () => {
+describe("Then Command", () => {
     // Test case to verify that the user can fill the contact form
     it("verify that user can fill the form", () => {
         // Visit the contact form page

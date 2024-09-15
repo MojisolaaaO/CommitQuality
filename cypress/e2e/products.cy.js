@@ -2,7 +2,7 @@ import ProductsPage from "../fixtures/productsPage";
 
 const productsPage = new ProductsPage();
 
-describe("login", () => {
+describe("Products", () => {
     beforeEach(() => {
         cy.visit("/")
     })
